@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          },
+          "person": {
+            "type": "string"
+          },
+          "adventure": {
+            "type": "string"
+          },
+          "adventureName": {
+            "type": "string"
+          },
+          "price": {
+            "type": "integer"
+          },
+          "isCancelled": {
+            "type": "boolean"
+          },
+          "id": {
+            "type": "string"
+          },
+          "time": {
+            "type": "string"
+          },
+          "_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "userId",
+          "name",
+          "date",
+          "person",
+          "adventure",
+          "adventureName",
+          "price",
+          "isCancelled",
+          "id",
+          "time",
+          "_id"
+        ]
+      }
+    ]
+  }
